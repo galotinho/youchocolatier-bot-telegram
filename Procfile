@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -Dtelegram.token=1247356815:AAE3hlWoL0qb4aVuY4ErVEtKTbEYmgAtE8k $JAVA_OPTS -jar target/telegram-bot-0.0.1-SNAPSHOT.jar
